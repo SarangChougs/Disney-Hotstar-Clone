@@ -1,14 +1,16 @@
 import { useState } from "react";
-import styled from "styled-components"
+import styled from "styled-components";
+import { useNavigate } from "react-router-dom";
 
 export default function Header() {
   const [isLoggedIn, setLogin] = useState(false);
+  const navigate = useNavigate();
   return (
     <Nav>
       <Logo>
         <img src="/images/logo.svg" alt="Disney+" />
       </Logo>
-      {!isLoggedIn ? (<Login onClick={() => setLogin(!isLoggedIn)}>Login</Login>
+      {!isLoggedIn ? (<Login onClick={() => { setLogin(!isLoggedIn); navigate('/home') }}>Login</Login>
       ) : (
         <>
           <NavMenu>
@@ -36,7 +38,7 @@ export default function Header() {
           <SignOut>
             <UserImg src="/images/userImage.jpeg" />
             <DropDown>
-              <span onClick={() => setLogin(!isLoggedIn)}>Sign Out</span>
+              <span onClick={() => { setLogin(!isLoggedIn); navigate('/') }}>Sign Out</span>
             </DropDown>
           </SignOut>
         </>
@@ -67,6 +69,7 @@ margin-top: 4px;
 max-height: 70px;
 font-size: 0;
 display: inline-block;
+
 img {
     display: block;
     width: 100%;
@@ -144,7 +147,7 @@ letter-spacing: 1.5px;
 border: 1px solid #f9f9f9;
 border-radius: 4px;
 transition: all 0.3s ease 0s;
-
+cursor: pointer;
 &:hover {
   background-color: #f9f9f9;
   color: #000;
