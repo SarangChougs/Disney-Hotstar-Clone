@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export default function Recommends({movies}) {
-    console.log(movies)
+    // console.log(movies)
   return (
     <Container>
         <h4>Recommended for You</h4>
