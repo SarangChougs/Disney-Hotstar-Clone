@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/SarangChougs/Disney-Hotstar-Clone/static/css/main.56426288.css",
-    "main.js": "/SarangChougs/Disney-Hotstar-Clone/static/js/main.579ab590.js",
+    "main.js": "/SarangChougs/Disney-Hotstar-Clone/static/js/main.b9e87013.js",
     "static/media/slick.svg": "/SarangChougs/Disney-Hotstar-Clone/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/SarangChougs/Disney-Hotstar-Clone/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/SarangChougs/Disney-Hotstar-Clone/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/SarangChougs/Disney-Hotstar-Clone/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/SarangChougs/Disney-Hotstar-Clone/index.html",
     "main.56426288.css.map": "/SarangChougs/Disney-Hotstar-Clone/static/css/main.56426288.css.map",
-    "main.579ab590.js.map": "/SarangChougs/Disney-Hotstar-Clone/static/js/main.579ab590.js.map"
+    "main.b9e87013.js.map": "/SarangChougs/Disney-Hotstar-Clone/static/js/main.b9e87013.js.map"
   },
   "entrypoints": [
     "static/css/main.56426288.css",
-    "static/js/main.579ab590.js"
+    "static/js/main.b9e87013.js"
   ]
 }
